@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container-header {
+	width: 2000px;
+    height: 872px;
+    background-color: #3695ff;
+}
+
+.list {
+	width: 25px;
+    height: 19px;
+    margin-top: 103px;
+    padding-left: 1114px;
+}
+
+header {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.cookies {
+    height: 72px;
+    background-color: #194277;
+    padding: 22px;
+}
+
+.cooki {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 745px;
+}
+
+.accept {
+	width: 112px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border-style: none;
+    color: #194277;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.36px;
+    letter-spacing: 0.55px;
+    margin-left: 51px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	width: 2000px;
+	height: 4051px;
+}
+
+.krug {
+	margin-top: 65px;
+	padding-left: 499px;
+}
+
+h1, h2, h3, p {
+	font-family: 'Lato', sans-serif;
+}
+
+.titles {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    text-align: center;
+    padding-top: 76px;
+
+}
+
+.title2 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.knopka {
+    width: 204px;
+    height: 55px;
+    border-radius: 35px;
+    border-style: none;
+    background-color: #ffffff;
+    color: #3695ff;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    margin-top: 55px;
+    margin-left: 469px;
+}
+
+.strelka {
+	margin-top: 42px;
+	padding-left: 561px;
+}
+
+.about {
+	width: 2000px;
+    height: 407px;
+}
+
+
+.container h2 {
+    background-clip: text;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+    margin-top: 122px;
+	padding-left: 465px;
+	padding-top: 94px;
+}
+
+.text_about {
+	color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 69px;
+	padding-left: 37px;
+	text-align: center;
+}
+
+.expert {
+	width: 2000px;
+    height: 1145px;
+    background-color: #f1f8ff;
+}
+
+.text_expert {
+    background-clip: text;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+    margin-bottom: 155px;
+	padding-left: 479px;
+
+}
+
+.expert__in {
+    width: 360px;
+	text-align: center;
+}
+
+.expert__item {
+	width: 360px;
+	text-align: center;
+	float: left;
+	margin: 15px;
+	padding-top: 55px;
+}
+
+.expert__item h3 {
+   color: #3677fd;
+   font-family: Lato;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 24px;
+   text-transform: uppercase; 
+   padding-top: 100px;
+}
+
+.expert__item p {
+  width: 355px;
+  height: 85px;
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  padding-top: 33px;
+}
+
+.expert__item:last-child {
+	float: right;
+}
+
+.expert__item:nth-child(3) {
+	float: right;
+}
+
+.latest {
+	background-color: #fff;
+	width: 2000px;
+	height: 1020px;
+
+}
+
+.latest__item {
+	float: left;
+	width: 359px;
+    height: 269px;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    margin: 54px 14px 194px 14px;
+
+}
+
+.foto {
+	padding: 29px 37px 0px 38px;
+}
+
+.foto2 {
+	padding: 29px 94px 0px 95px;
+}
+
+.foto3 {
+	padding: 29px 31px 0px 44px;
+}
+
+.foto4 {
+	padding: 38px 37px 37px 38px;
+}
+
+.foto5 {
+	padding: 54px 105px 54px 105px;
+}
+
+.foto6 {
+	padding: 51px 37px 58px 38px;
+}
+
+.clients {
+	width: 2000px;
+    height: 363px;
+    background-color: #f1f8ff;
+}
+
+.logotipy {
+	padding: 76px 50px 99px 47px;
+}
+
+footer {
+	
+	height: 247px;
+	background-color: #3677fd;
+    text-align: center;
+}
+
+
+footer .need{
+	font-size: 50px;
+	color: #ffffff;
+    font-family: Lato;
+    font-weight: 300;
+    margin-top: 96px;
+}
+
+footer .ready{
+	font-weight: 700;
+	font-size: 50px;
+	color: #ffffff;
+    font-family: Lato;
+    margin-top: 96px;
+}
+
+.knopka2 {
+	width: 204px;
+    height: 55px;
+    border-radius: 35px;
+    border-style: none;
+    background-color: #ffffff;
+    color: #3695ff;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    margin-left: 64px;
+    margin-top: 96px;
+}
